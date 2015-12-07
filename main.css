@@ -1,0 +1,125 @@
+/** {
+	cursor:pointer;
+}*/
+
+.wrap {
+ 
+	width: 900px;
+	height: 1000px;
+	margin: auto;
+	border-style: groove;
+}
+
+h1 {
+	text-align: center;
+}
+
+#pic {
+	border-radius: 100%;
+	width: 300px;
+	display: block;
+	margin: auto;
+	vertical-align: 25px;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+h4 {
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background-color: #F0EAD6;
+}
+
+
+/*Inlay: Three section body in the core of the page */
+.inlay{
+	width: 289px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+
+/*Menu will float on the page.  I like the convenience when reading journal articles but may need to find another option for mobile browsers
+*/
+
+.menu {
+	position: fixed;
+	heiht: 60px;
+	/*opacity:.5;*/
+	/*Might consider not impacting the opacity of the menu options as it may cause confusion and makr it hard to read*/
+	top: 1px;
+	left: -5px;
+	width: 100%;
+	border-style: solid;
+	border-color: #999;
+	background-image: url(menu.jpg);
+	/*background: #642834;*/
+	z-index: 2;
+	
+	/*This is a transition feature used with the menu hover to expand the nav menu.  Can't be used it menu width is always at 100%*/
+	/*transition: width 2s;
+    transition-delay: 0.5s;*/
+}
+
+/*Demo expandable to use with transition feature*/
+/*.menu:hover {
+	width: 100%;
+}*/
+
+.menu a:link, a:visited, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+.height-spacer {
+	height: 50px;
+}
+
+.menu a:hover {
+	color: #999;
+	cursor:pointer; 
+	/*Cursor addtion is pointless but wanted to mess around with it.  Reminds me of mickey mouse...*/
+}
+
+
+.menu li { 
+
+	float: left;
+	display: block;
+	padding: 0px 12px;
+	margin: auto;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	z-index: 5;
+
+}
+
+.menu h1 {
+	float: right;
+	color: #F0EAD6;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	margin-right: 20px;
+	z-index: 5;
+	font: ;
+}
