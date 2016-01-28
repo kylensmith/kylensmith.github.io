@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JukeBox</title>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
+	<!-- Voice recognition library above. -->
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src= "jukebox.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+			<div class="headliner">
+				<h1>Bowie Box</h1>
+			</div>
+		<div class="buttons_from_mars">
+			<button  id="play">Play</button>
+			<button  id="stop">Stop</button>
+			<button  id="pause">Pause</button>
+			<button  id="next_song">Next</button>
+			<br><br>
+		</div>
+		<div class="ziggy_select">
+			<select id="audiofile"/>
+				<option value="">Choose a song     </option>
+				<option value="0">Space Oddity</option>
+				<option value="1">Let's Dance</option>
+				<option value="2">Rebel Rebel</option>
+				<option value="3">Changes</option>
+				<option value="4">Ziggy Stardust</option>
+			</select>
+		</div>	
+
+		<p id= "name"></p>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+/* Kyle N. Smith */
+
+
+body {
+	font-family: fantasy;
+	background-color: #FFFFFF;
+}
+
+
+
+.pic {
+	float: right;
+	border-style: solid;
+	border-radius: 100%;
+	width: 25%;
+	display: inline;
+	/*margin: auto;*/
+	/*vertical-align: 3vw;*/
+}
+
+.kns-pic {
+	float: right;
+	border-radius: 100%;
+	width: 100%;
+	display: inline;
+	/*clear: both;*/
+	/*margin: 45%, 3%, 0, 0;*/
+	/*vertical-align: 3vw;*/
+}
+
+#about-text {
+	/*text-align: left;*/
+	/*margin-top: -20vw;*/
+	/*float: left;*/
+	display: inline;
+	font-size: 2.5vw;
+	/*width: 50%;*/
+}
+
+
+
+.size{
+	clear: both;
+	display: inline;
+ 	width: 99%;
+ 	height: 100vw;
+ }
+
+#div-0 {
+	display: block;
+	background-image: none;
+}

@@ -1,0 +1,121 @@
+
+
+// default and large screen
+
+
+
+    
+.buttons_from_mars {
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	top: 50%; 
+	left: 80%;
+	width: 20%;
+	
+	button {
+	font-size: 20px;
+	font-family: 'Permanent Marker', cursive;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: $blueish;
+	// background-color: rgba(58, 75, 156, .6);
+	color: $redish;
+	transition: .5s;
+		}
+
+	#play:hover {
+		
+	background-color: $redish;
+	color: $blueish;
+	}
+
+	#stop:hover {
+	background-color: shade($redish, 20%);
+	color: tint($bluepac, 20%);
+	}
+
+	#pause:hover {
+	background-color: shade($redish, 40%);
+	color: tint($bluepac, 40%);
+	}
+
+	#next_song:hover{
+	background-color: shade($redish, 60%);
+	color: tint($bluepac, 60%);
+	}
+
+	#load:hover {
+	background-color: shade($redish, 80%);
+	color: tint($bluepac, 80%);
+	}
+
+
+}
+
+
+
+
+
+
+// Mobile site
+
+@media  (max-width: 700px) {
+   
+.buttons_from_mars {
+
+	position: static;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+		button {
+		font-size: 5vw;
+		border-radius: .7;
+		font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+		padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+		// margin-top: 50px;
+		background-color: $cremish;
+		color: $orangish;
+		transition: .5s;
+			}
+
+		#play:hover {
+			
+		background-color: $orangish;
+		color: $cremish;
+		}
+
+		#stop:hover {
+		background-color: shade($orangish, 20%);
+		color: tint($cremish, 20%)
+		}
+
+		#pause:hover {
+		background-color: shade($orangish, 40%);
+		color: tint($cremish, 40%)
+		}
+
+		#next_song:hover{
+		background-color: shade($orangish, 60%);
+		color: tint($cremish, 60%)
+		}
+
+		#load:hover {
+		background-color: shade($orangish, 80%);
+		color: tint($cremish, 80%)
+		}
+
+
+}
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,19 @@
+// color pallette
+$blueish: rgba(58, 75, 156, .6);
+$redish: #BB2B56;
+$bluepac: rgba(58, 75, 156, 1);
+
+// mobile pallette
+$orangish: #FF4610;
+$cremish: #F8D9BA;
+$whitish: #FFFFFF;
+
+@import 'bourbon/bourbon';
+@import 'buttons';
+@import 'juke';
+@import 'select';
+@import 'headliner';
+@import 'album';
+
+
+
