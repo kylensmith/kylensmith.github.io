@@ -1,5 +1,5 @@
 window.onload = function() {
-	// current question being asked
+    // current question being asked
     var currentQuestion = 0;
     // number of questions correctly answered
     var correct = 0;
@@ -120,36 +120,38 @@ window.onload = function() {
     };
 
     function passFail(){
-    	if(correct > qList.length/2){
-    		return "passed";
-    	}
-    	else 
-    		return "failed";
+        if(correct > qList.length/2){
+            return "passed";
+        }
+        else 
+            return "failed";
 
     };
 
     function nextQ() {
-    	if (currentQuestion <= qList.length -1){
+        if (currentQuestion <= qList.length -1){
         this.loadQ = document.getElementById("question").innerHTML = qList[currentQuestion].question;
         this.loanA1 = document.getElementById("answer-1").innerHTML = qList[currentQuestion].answer1;
         this.loadA2 = document.getElementById("answer-2").innerHTML = qList[currentQuestion].answer2;
         this.loadA3 = document.getElementById("answer-3").innerHTML = qList[currentQuestion].answer3;
         this.loadA4 = document.getElementById("answer-4").innerHTML = qList[currentQuestion].answer4;
-    	}
-    	else {
-    		hideAnswers(0);
-    		document.getElementById("question").innerHTML = "You answered " + correct + " out of " + qList.length + " questions correctly.  You have " +passFail()+ " this quiz.";
-    		hideAnswers(0);
-    	}
+        }
+        else {
+            hideAnswers(0);
+            document.getElementById("question").innerHTML = "You answered " + correct + " out of " + qList.length + " questions correctly.  You have " +passFail()+ " this quiz.";
+            hideAnswers(0);
+        }
     };
 
 
     function displayAnswer() {
-    	document.getElementById("question").innerHTML = qList[currentQuestion-1].reply;
-    	hideAnswers(0);
-    	setTimeout(function() { nextQ(); if (currentQuestion <= qList.length -1){showAnswers(0);}; }, 6000);
+        document.getElementById("question").innerHTML = qList[currentQuestion-1].reply;
+        hideAnswers(0);
+        setTimeout(function() { nextQ(); if (currentQuestion <= qList.length -1){showAnswers(0);}; }, 6000);
     };
 
 
 
 };
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help

@@ -1,7 +1,7 @@
 /* Kyle N. Smith */
 
 
-body {
+/*body {
 	font-family: fantasy;
 	background-size:100% auto;
   background: url(07197.jpg);
@@ -31,14 +31,14 @@ ul {
 	list-style-type: none;
 }
 
-
+*/
 
 #lkdin {
 	width: 4%;
 }
 
 
-.access {
+/*.access {
 	font-size: 3vw;
 	text-align: center;
 	}
@@ -62,7 +62,7 @@ ul {
 	display: inline;
 	margin: -100px, 10vw, 0, 0;
 	/*vertical-align: 3vw;*/
-}
+/*}
 
 #kns-pic {
 	float: right;
@@ -99,9 +99,9 @@ p {
 	font-size: 2vw;
 	/*padding: 0;
 	margin: 0;*/
-}
+/*}*/
 
-hr { 
+/*hr { 
   height: 30px; 
   border-style: solid; 
   border-color: #8c8b8b; 
@@ -127,12 +127,12 @@ hr:before {
 
 .menu a:hover {
 	color: #999;
-}
+}*/
 
 #round {
 	border-radius: 100%;
 }
-
+/*
 
 .menu img {
 	-webkit-filter: grayscale(100%);
@@ -242,3 +242,4 @@ hr:before {
 	background-repeat: no-repeat;
 	display: block;
 }
+*/
